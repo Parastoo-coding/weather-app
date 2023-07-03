@@ -11,7 +11,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -28,16 +28,16 @@
                 aria-describedby="basic-addon1"
                 id="search-city"
               />
-              <div class="col-3">
-                <button type="submit" class="btn btn-primary">Search</button>
-              </div>
-              <div class="col-3">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-primary mr-1">
+                  Search
+                </button>
                 <button
                   type="button"
                   class="btn btn-success"
                   id="Current-Location"
                 >
-                  Current Location
+                  Current
                 </button>
               </div>
             </div>
@@ -160,7 +160,12 @@
         <div class="col-2">36°</div>
       </div>
     </div>
-
-    <script src="src/index.js"></script>
+    <small>
+      <a href="https://github.com/Parastoo-coding/weather-app" target="_blank"
+        >Open-source code</a
+      >
+      , by Parastoo Ebrahimi
+    </small>
+    <script src="script.js"></script>
   </body>
 </html>
